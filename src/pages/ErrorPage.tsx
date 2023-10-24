@@ -3,7 +3,7 @@ import ErrorCar from '../assets/ErrorCar'
 
 export default function ErrorPage() {
   return (
-    <section className="flex h-[85vh] flex-col items-center justify-center gap-12 text-lightGray">
+    <section className="flex h-[90vh] flex-col items-center justify-center gap-12 text-lightGray">
       <p className="font-lora text-5xl">OOOOOPS!</p>
       <ErrorCar size="200" />
 
