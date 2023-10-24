@@ -18,6 +18,7 @@ module.exports = {
         lora: 'Lora',
         interRegular: 'Inter-regular',
         interBold: 'Inter-bold',
+        loraItalic: 'Lora-italic',
       },
     },
   },
