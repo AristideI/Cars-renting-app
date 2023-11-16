@@ -38,7 +38,7 @@ export default function Login(): ReactElement {
   return (
     <section className="mt-12 flex flex-col items-center justify-center gap-12 px-4 text-secondary-50">
       <h1 className="text-center font-serif text-5xl">
-        MONI <br /> <span className="font-serifItalic">share</span>
+        OYA <br /> <span className="font-serifItalic">CAB</span>
       </h1>
       <section className="mx-auto flex w-full max-w-2xl flex-col items-center justify-center gap-8">
         <div className="flex w-full flex-col items-center">

@@ -14,7 +14,7 @@ export default function Landing(): ReactElement {
   return (
     <section className="mx-auto mt-32 flex w-full flex-col items-center justify-start gap-24 px-4 text-secondary-50 md:w-1/2">
       <h1 className="text-center font-serif text-5xl">
-        MONI <br /> <span className="font-serifItalic">share</span>
+        OYA <br /> <span className="font-serifItalic">CAB</span>
       </h1>
       <div className="text-center font-serif text-xl md:text-2xl">
         <p>Start sharing your Monis</p>
