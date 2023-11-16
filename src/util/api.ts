@@ -27,9 +27,9 @@ interface CarDto {
   ownerId: number
   horsepower?: number
   info?: string
-  plate?: string
+  licensePlate?: string | null
   fuelType: FuelType
-  carState: CarState
+  state: CarState
 }
 
 interface NewCarDto {
@@ -79,6 +79,11 @@ interface ChangeBookingStateDto {
   state: BookingState
 }
 
+interface LoginResponseDTO {
+  userId: number
+  token: string
+}
+
 export type {
   CarDto,
   NewCarDto,
@@ -88,5 +93,6 @@ export type {
   NewBookingDto,
   ChangeBookingStateDto,
   ChangeCarStateDto,
+  LoginResponseDTO,
 }
 export { BookingState, CarState }

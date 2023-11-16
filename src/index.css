@@ -9,6 +9,11 @@ body {
   @apply font-normal text-left text-sm relative text-gray-700;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 @font-face {
   font-family: 'Lora';
   src: url('./assets/fonts/Lora-Medium.ttf');
@@ -26,38 +31,9 @@ body {
   src: url('./assets/fonts/Lora-MediumItalic.ttf');
 }
 
-.menu-animation {
-  position: absolute;
-  top: 12vh;
-  left: 10px;
-  background-color: #3e7591;
-  border-radius: 1rem;
-  animation-name: slideOut;
-  animation-duration: 0.4s;
+option {
+  background: #64a1c0;
 }
-
-.menuIn {
-  animation-name: slideIn;
-}
-
-.menuOut1 {
-  animation-name: slideOut;
-}
-
-@keyframes slideIn {
-  from {
-    left: -20rem;
-  }
-  to {
-    left: 10px;
-  }
-}
-
-@keyframes slideOut {
-  from {
-    left: 10px;
-  }
-  to {
-    left: -20rem;
-  }
+select::-ms-expand {
+  display: none;
 }

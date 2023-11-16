@@ -2,23 +2,32 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      serif: 'Lora',
+      sans: 'Inter-regular',
+      mono: 'Inter-bold',
+      serifItalic: 'Lora-italic',
+    },
     extend: {
       colors: {
-        darkBlue: '#111827', //dark blue for the nav bar
-        primaryBlue: '#265E78', // main color for all the backgrounds
-        mainBlue: '#3E7591', // gradient used on  car cards and menu option
-        lightBlue: '#64A1C0', // color used for the inputs
-        lightGray: '#F9FAFB', // will serve as white
-        darkGray: '#C9CDD3', // disabled buttons
-        lightGreen: '#F8FCAD', //color used at forgot password, login, sign up
-        darkGreen: '#EBF541', // color used at Booking accepted
-        lightOrange: '#FFC28A', //used for delete button, errors
-      },
-      fontFamily: {
-        lora: 'Lora',
-        interRegular: 'Inter-regular',
-        interBold: 'Inter-bold',
-        loraItalic: 'Lora-italic',
+        primary: {
+          50: '#64A1C0',
+          100: '#3E7591',
+          150: '#265E78',
+          200: '#111827',
+        },
+        secondary: {
+          50: '#F9FAFB',
+          100: '#C9CDD3',
+        },
+        success: {
+          50: '#F8FCAD',
+          100: '#EBF541',
+        },
+        warning: {
+          50: '#FFC28A',
+          100: '#FF7A38',
+        },
       },
     },
   },
